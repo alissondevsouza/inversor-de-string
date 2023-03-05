@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Questão Três - Target Sistemas</title>
+
+    </head>
+
+    <body>
+
+        <main>
+            <div class="container">
+
+                <span class="title1">Target Sistemas - Questão 5</span>
+                <span class="title2">INVERSOR DE SRTING</span>
+                <span id="stringInverser" class="title3"></span>
+
+                <span class="inputString">Digite a palavra que deseja inverter:</span>
+                <input type="text" id="inputText" onchange="init()"/>
+
+                <section class="buttons">
+                    <button type="submit" id="consult">INVERTER</button>
+                    <button id="reset" onclick=" resetInversor()">REINICIAR</button>
+                </section>
+
+                <span class="result">Resultado:</span>
+                <span id="inverterResult"></span>
+
+            </div>
+        </main>
+        
+        <script src="/script.js"></script>
+    </body>
+
+</html>
